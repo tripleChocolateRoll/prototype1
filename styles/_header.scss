@@ -1,0 +1,30 @@
+.nav-container {
+  padding: 2em 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  @include animation-ease;
+  &.scrolled {
+    background: $bgColor;
+    @include animation-ease;
+  }
+  .nav-logo {
+    color: $primaryColor;
+  }
+  .nav-menu {
+    display: flex;
+    .nav-item {
+      list-style-type: none;
+      padding: 1em;
+      .nav-link {
+        text-decoration: none;
+        font-weight: 700;
+        color: $tertiaryColor;
+      }
+    }
+  }
+}

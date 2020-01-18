@@ -1,0 +1,17 @@
+@import "config";
+@import "header";
+@import "landingPage";
+@import "about";
+@import "service";
+@import "responsive";
+@import "contact";
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+footer {
+  margin: 2em 0 0 0;
+  padding: 1.5em;
+  text-align: center;
+  background: rgba($secondaryColor, 0.1);
+}

@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+$primaryColor: #3d5af1;
+$secondaryColor: #22d1ee;
+$tertiaryColor: #0e153a;
+$bgColor: #e2f3f5;
+
+@mixin animation-ease {
+  transition: all 0.3s ease-in-out;
+}
+
+@mixin media-L {
+  @media only screen and (max-width: 992px) {
+    @content;
+  }
+}
+@mixin media-M {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin media-S {
+  @media only screen and (max-width: 500px) {
+    @content;
+  }
+}
+@mixin media-xS {
+  @media only screen and (max-width: 375px) {
+    @content;
+  }
+}

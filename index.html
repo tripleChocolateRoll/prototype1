@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Proto1</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-container">
+        <div class="nav-logo">
+          <span>Logo</span>
+        </div>
+        <div class="nav-btn">
+          <div class="nav-btn__burger"></div>
+        </div>
+        <div class="nav">
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#aboutUs" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="#service" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="#contactUs" class="nav-link">Contact us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="landingPage">
+        <div class="landingPage-btns">
+          <h2>The best training facility for your dog</h2>  
+          <a href="#" class="landingPage-btn">find out more</a>
+          <ul class="landingPage__items">
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-github"></i></li>
+          </ul>
+        </div>
+        <div class="landingPage-img">
+          <img src="./images/home_1.jpg" alt="" />
+        </div>
+      </section>
+      <section class="aboutUs" id="aboutUs">
+        <h2>We're always ready for challenges.</h2>
+        <div class="aboutUs-test">
+          <div class="aboutUs-test__column">
+            <i class="fas fa-tree"></i>
+            <h3>Dog Park</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, repellat.</p>
+          </div>
+          <div class="aboutUs-test__column">
+            <i class="fas fa-camera-retro"></i>
+            <h3>Photoshoot</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, repellat.</p>
+          </div>
+          <div class="aboutUs-test__column">
+            <i class="fas fa-stethoscope"></i>
+            <h3>Daily Check-up</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, repellat.</p>
+          </div>
+        </div>
+      </section>
+      <section class="service" id="service">
+        <div class="service-column1">
+          <img src="./images/service1.jpg" alt="">
+          <div class="service-text">
+            <h2>Handling and Socialization</h2>
+            <div class="service-text__icon">
+              <div>
+                <i class="fas fa-medal"></i>
+              </div>
+              <div>
+                <h3>A good training class </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, asperiores.</p>
+              </div>
+            </div>
+              <div class="service-text__icon">
+                <div>
+                  <i class="fas fa-medal"></i>
+                </div>
+                <div>
+                  <h3>Socialization of puppies</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, asperiores.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="service-column2">
+          <div class="service-text">
+            <h3>Trusted by over 300+ clients worldwide</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quod minus voluptatibus consequatur minima accusamus deleniti distinctio deserunt saepe similique voluptatem perferendis laboriosam quisquam soluta eius, officiis ipsam necessitatibus voluptatum..</p>
+            <a href="#">get started</a>
+          </div>
+          <img src="./images/service2.jpg" alt="">
+        </div>
+        <div class="service-column3" id="blog">
+          <img src="./images/service3.jpg" alt="">
+          <div class="service-text">
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, atque sapiente voluptatibus provident excepturi magni obcaecati tempore voluptatem sed animi autem voluptates molestias molestiae dolores exercitationem non earum, iusto rem, fugit quisquam suscipit quae! Harum beatae, animi sint excepturi, velit ipsa facilis hic voluptatibus id quibusdam, et voluptatem quo quia!"</p>
+            <div class="service-text__profile">
+              <i class="fas fa-user-circle"></i>
+              <h3>FirstName LastName</h3>
+              <p>Client/Blogger</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contactUs" id="contactUs">
+        <div class="contactUs-text">
+          <h2>Reservation</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis! (123)456789</p>
+          <div class="contactUs-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="form-wrapper">
+          <form action="" method="POST" class="form">
+             <div class="input-group">
+               <input type="text" id="fullName" name="fullName" required>
+               <label for="fullName">Name</label>
+             </div>
+             <div class="input-group">
+               <input type="text" id="contactNum" name="contactNum" required>
+               <label for="contactNum">Contact Number</label>
+             </div>
+             <div class="input-group">
+               <input type="email" id="email" name="email" required>
+               <label for="email">Email</label>
+             </div>
+             <div class="input-group">
+               <input type="text" id="message" name="message">
+               <label for="message">Message</label>
+             </div>
+             <input type="submit" value="submit" class="submit">
+           </form>
+         </div>
+      </section>
+      <footer>
+        <p>&copy; Pexels / Dribbble 2020</p>
+      </footer>
+    </main>
+
+    <script src="./js/main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/496199aa18.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+.aboutUs {
+  //margin-top: 5rem;
+  padding: 5em 5em 0 5em;
+  overflow: hidden;
+  height: 100vh;
+  h2 {
+    color: $tertiaryColor;
+    font-size: 2.5rem;
+    width: 50%;
+  }
+  &-test {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3em;
+    padding: 3em;
+    &__column {
+      background: snow;
+      padding: 1.5em 2em;
+      border-radius: 10px;
+      box-shadow: 5px 8px 15px #888888;
+      color: $tertiaryColor;
+      i {
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+      h3 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+      }
+      p {
+        margin-bottom: 3em;
+        font-size: 1rem;
+        text-align: justify;
+      }
+    }
+  }
+}
